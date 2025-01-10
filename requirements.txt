@@ -1,0 +1,4 @@
+aiohttp
+python-dotenv
+fastapi
+pydantic
