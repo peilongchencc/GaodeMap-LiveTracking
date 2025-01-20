@@ -54,8 +54,9 @@ async def main():
     """
     主函数，执行地理编码查询。
     """
-    # address = "北京市朝阳区阜通东大街6号"
-    address = "北京市朝阳区东湖街道叶青大厦C座"
+    address = "北京市朝阳区阜通东大街6号"
+    # address = "北京市朝阳区东湖街道叶青大厦C座"
+    # address = "北京市朝阳区望京街10号"
 
     result = await geocode(address)
     if result:

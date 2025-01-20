@@ -56,7 +56,7 @@ async def main():
     主函数，执行逆地理编码查询。
     """
     # 示例经纬度和用户 API Key
-    # location = "116.482145,39.990039"  # 北京某位置的经纬度
+    # location = "116.482145,39.990039"  # 北京市朝阳区望京街道方恒购物中心方恒国际
     location = "116.468318,40.012600"   # 北京市朝阳区东湖街道叶青大厦C座
 
     result = await reverse_geocode(location)
